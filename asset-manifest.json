@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/digital-clock/static/css/main.e79c8687.css",
-    "main.js": "/digital-clock/static/js/main.82ce9c3c.js",
-    "static/media/background-video.mp4": "/digital-clock/static/media/background-video.d950abe51952f41e7c7c.mp4",
+    "main.js": "/digital-clock/static/js/main.cf58ef8e.js",
+    "static/media/background-video.mp4": "/digital-clock/static/media/background-video.2b6b9a1c554c35724936.mp4",
     "index.html": "/digital-clock/index.html",
     "main.e79c8687.css.map": "/digital-clock/static/css/main.e79c8687.css.map",
-    "main.82ce9c3c.js.map": "/digital-clock/static/js/main.82ce9c3c.js.map"
+    "main.cf58ef8e.js.map": "/digital-clock/static/js/main.cf58ef8e.js.map"
   },
   "entrypoints": [
     "static/css/main.e79c8687.css",
-    "static/js/main.82ce9c3c.js"
+    "static/js/main.cf58ef8e.js"
   ]
 }
