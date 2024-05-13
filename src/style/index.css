@@ -1,0 +1,80 @@
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*  Utility Classes                                      */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.center {
+  display: grid;
+  place-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-10 {
+  gap: 1rem;
+}
+
+.gap-20 {
+  gap: 2rem;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*  Base                                                 */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+:root {
+  --app-background-dark: rgb(24, 23, 32);
+}
+
+body {
+  font-family: 'Noto Sans', 'Open Sans', arial, sans-serif;
+
+}
+
+.container {
+  width: min(100% - 30px, 1080px);
+  margin-inline: auto;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*  Background video                                     */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*  Alarm Clock                                          */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+main {
+  min-height: 100svh;
+}
+
+.clock-container {
+  backdrop-filter: blur(5px);
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+}
+
+.clock {
+  color: #fff;
+  font-size: 6rem;
+  font-weight: 600;
+  font-variant: tabular-nums; /* Makes it a defacto monospace font */
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.751);
+  text-align: center;
+}
